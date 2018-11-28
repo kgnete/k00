@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Simple from './ejemplos/Simple.jsx'
 import Airport from './ejemplos/Airport.jsx'
-// import Simple from './ejemplos/Simple.jsx'
+import Api from './ejemplos/Api.jsx'
+// import Calendar from './ejemplos/Calendar.jsx'
+import Dynamic from './ejemplos/Dynamic.jsx'
+import Events from './ejemplos/Events.jsx'
 
 class App extends Component {
   render() {
@@ -13,6 +15,11 @@ class App extends Component {
         <h1>
           ejemplos de echarts-for-react
         </h1>
+        <Events/>
+
+        <Dynamic/>
+        {/* <Calendar/> */}
+        <Api/>
         <Airport/>
         <Simple/>
       </div>

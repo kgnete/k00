@@ -8,6 +8,8 @@ import Api from './ejemplos/Api.jsx'
 import Dynamic from './ejemplos/Dynamic.jsx'
 import Events from './ejemplos/Events.jsx'
 import Gauge from './ejemplos/Gauge.jsx'
+import Gcalendar from './ejemplos/Gcalendar.jsx'
+import Gl from './ejemplos/Gl.jsx'
 
 class App extends Component {
   render() {
@@ -16,6 +18,8 @@ class App extends Component {
         <h1>
           ejemplos de echarts-for-react
         </h1>
+        <Gl/>
+        <Gcalendar/>
         <Gauge/>
         <Events/>
         <Dynamic/>

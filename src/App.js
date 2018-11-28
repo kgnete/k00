@@ -14,6 +14,7 @@ import Loading from './ejemplos/Loading.jsx'
 import Lunar from './ejemplos/Lunar.jsx'
 import Map from './ejemplos/Map.jsx'
 import Simple from './ejemplos/Simple.jsx'
+import Sunburst from './ejemplos/Sunburst.jsx'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           ejemplos de echarts-for-react
         </h1>
 
+        <Sunburst/>
         <Simple/>
         <Map/>
         <Lunar/>

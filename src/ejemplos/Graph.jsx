@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import ReactEcharts from '../../../src/index';
+import ReactEcharts from 'echarts-for-react';
 
 export default class Graph extends PureComponent {
   getOption = () => {

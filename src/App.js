@@ -17,6 +17,7 @@ import Simple from './ejemplos/Simple.jsx'
 import Sunburst from './ejemplos/Sunburst.jsx'
 import Svg from './ejemplos/Svg.jsx'
 import Theme from './ejemplos/Theme.jsx'
+import Treemap from './ejemplos/Treemap.jsx'
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
           ejemplos de echarts-for-react
         </h1>
 
+        <Treemap/>
         <Theme/>
         <Svg/>
         <Sunburst/>

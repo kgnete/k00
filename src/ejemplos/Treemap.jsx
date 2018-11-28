@@ -180,14 +180,14 @@ export default class Treemap extends PureComponent {
         ]
     }
 ]
-    function colorMappingChange(value) {
-      var levelOption = getLevelOption(value);
-      chart.setOption({
-        series: [{
-          levels: levelOption
-        }]
-      });
-    }
+    // function colorMappingChange(value) {
+    //   var levelOption = getLevelOption(value);
+    //   chart.setOption({
+    //     series: [{
+    //       levels: levelOption
+    //     }]
+    //   });
+    // }
     var formatUtil = echarts.format;
     function getLevelOption() {
       return [{

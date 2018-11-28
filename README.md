@@ -1,6 +1,15 @@
 ## con echarts y react-for-echarts
 
 - en el branch b0 estan los ejemplos de ejemplos de https://github.com/hustcc/echarts-for-react/tree/master/demo/src/charts
+
+
+instalar
+
+```sh
+npm install --save echarts-for-react
+# ojo que hoay que instalar tambien
+npm install echarts --save
+```
 ## Available Scripts 
 
 In the project directory, you can run:

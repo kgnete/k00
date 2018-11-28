@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>ejemplos de https://ecomfe.github.io/echarts-examples/public/index.html</h1>
+        <h1>ejemplos de https://github.com/ecomfe/echarts-examples/tree/gh-pages/public/data</h1>
         
         
         {/* <ReactEcharts option={dynamicdata2}/> */}

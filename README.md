@@ -1,5 +1,5 @@
 ## con echarts y react-for-echarts
-
+ejemplos de https://github.com/hustcc/echarts-for-react/tree/master/demo/src/charts
 ## Available Scripts 
 
 In the project directory, you can run:

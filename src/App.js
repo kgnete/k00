@@ -11,8 +11,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1>ejemplos de https://ecomfe.github.io/echarts-examples/public/index.html</h1>
+        
+        
         <ReactEcharts option={option2}/>
-
         <ReactEcharts option={option1}/>
       </div>
     );

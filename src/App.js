@@ -10,6 +10,8 @@ import Events from './ejemplos/Events.jsx'
 import Gauge from './ejemplos/Gauge.jsx'
 import Gcalendar from './ejemplos/Gcalendar.jsx'
 import Gl from './ejemplos/Gl.jsx'
+import Graph from './ejemplos/Graph.jsx'
+import Loading from './ejemplos/Loading.jsx'
 
 class App extends Component {
   render() {
@@ -18,6 +20,9 @@ class App extends Component {
         <h1>
           ejemplos de echarts-for-react
         </h1>
+
+        <Loading/>
+        <Graph/>
         <Gl/>
         <Gcalendar/>
         <Gauge/>

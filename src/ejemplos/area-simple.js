@@ -1,3 +1,6 @@
+
+import echarts from 'echarts'
+
 var base = +new Date(1968, 9, 3);
 var oneDay = 24 * 3600 * 1000;
 var date = [];
@@ -10,7 +13,7 @@ for (var i = 1; i < 20000; i++) {
     data.push(Math.round((Math.random() - 0.5) * 20 + data[i - 1]));
 }
 
-option = {
+const option = {
     tooltip: {
         trigger: 'axis',
         position: function (pt) {
@@ -79,3 +82,5 @@ option = {
         }
     ]
 };
+
+export default option

@@ -14,6 +14,20 @@ npm i -s echarts-gl
 npm i -s 76
 
 ```
+arrancar el servidor
+```
+npm start
+```
+
+cambiar a la rama de los ejercicios
+```
+git checkout b0
+```
+con cada cambio
+```
+.git.push k00
+```
+
 ## Available Scripts 
 
 In the project directory, you can run:

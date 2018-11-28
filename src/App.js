@@ -13,8 +13,8 @@ class App extends Component {
         <h1>
           ejemplos de echarts-for-react
         </h1>
-        <Simple/>
         <Airport/>
+        <Simple/>
       </div>
     );
   }

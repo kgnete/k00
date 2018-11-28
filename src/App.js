@@ -26,6 +26,7 @@ class App extends Component {
         <h1>
           ejemplos de echarts-for-react
         </h1>
+        <Dynamic/>
 
         <Treemap/>
         <Theme/>
@@ -40,7 +41,7 @@ class App extends Component {
         <Gcalendar/>
         <Gauge/>
         <Events/>
-        <Dynamic/>
+        {/* <Dynamic/> */}
         {/* <Calendar/> */}
         <Api/>
         <Airport/>

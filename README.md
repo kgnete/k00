@@ -10,6 +10,7 @@ npm install --save echarts-for-react
 # ojo que hoay que instalar tambien
 npm install echarts --save
 npm i -s lodash.clonedeep
+npm i -s echarts-gl
 
 ```
 ## Available Scripts 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Simple from './ejemplos/Simple.js'
+import Simple from './ejemplos/Simple.jsx'
 
 
 
@@ -23,9 +23,10 @@ class App extends Component {
           >
             Learn React
           </a>
-          <Simple />
 
         </header>
+        <Simple />
+
       </div>
     );
   }

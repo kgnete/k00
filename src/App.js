@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ReactEcharts from "echarts-for-react";
-
-import option1 from './ejemplos/BasicLineChart.jsx'
-import option2 from './ejemplos/Basicareachart.jsx'
+import BasicLineChart from './ejemplos/BasicLineChart.jsx'
+import Basicareachart from './ejemplos/Basicareachart.jsx'
+import arearainfall from './ejemplos/area-rainfall.jsx'
 
 class App extends Component {
   render() {
@@ -13,8 +13,9 @@ class App extends Component {
         <h1>ejemplos de https://ecomfe.github.io/echarts-examples/public/index.html</h1>
         
         
-        <ReactEcharts option={option2}/>
-        <ReactEcharts option={option1}/>
+        <ReactEcharts option={arearainfall}/>
+        <ReactEcharts option={Basicareachart}/>
+        <ReactEcharts option={BasicLineChart}/>
       </div>
     );
   }

@@ -1,4 +1,4 @@
-option = {
+const option = {
     title: {
         text: '堆叠区域图'
     },
@@ -81,3 +81,4 @@ option = {
         }
     ]
 };
+export default option

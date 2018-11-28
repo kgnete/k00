@@ -1,7 +1,7 @@
 ## con echarts y react-for-echarts
 
 - branch b0 https://git.hust.cc/echarts-for-react/#/?_k=m5gz6d copiados de   https://github.com/hustcc/echarts-for-react/tree/master/demo/src/charts
-- barnch b1  https://ecomfe.github.io/echarts-examples/public/index.html copiados de  https://github.com/apache/incubator-echarts/tree/master/src/chart
+- barnch b1  https://ecomfe.github.io/echarts-examples/public/index.html copiados de  https://github.com/ecomfe/echarts-examples/tree/gh-pages/public/data-gl
 
 instalar
 

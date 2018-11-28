@@ -1,4 +1,4 @@
-option = {
+const option = {
     xAxis: {
         type: 'category',
         boundaryGap: false,
@@ -13,3 +13,4 @@ option = {
         areaStyle: {}
     }]
 };
+export default option

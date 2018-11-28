@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import Simple from './ejemplos/Simple.jsx'
 import Airport from './ejemplos/Airport.jsx'
 import Api from './ejemplos/Api.jsx'
 // import Calendar from './ejemplos/Calendar.jsx'
@@ -12,6 +11,9 @@ import Gcalendar from './ejemplos/Gcalendar.jsx'
 import Gl from './ejemplos/Gl.jsx'
 import Graph from './ejemplos/Graph.jsx'
 import Loading from './ejemplos/Loading.jsx'
+import Lunar from './ejemplos/Lunar.jsx'
+import Map from './ejemplos/Map.jsx'
+import Simple from './ejemplos/Simple.jsx'
 
 class App extends Component {
   render() {
@@ -21,6 +23,9 @@ class App extends Component {
           ejemplos de echarts-for-react
         </h1>
 
+        <Simple/>
+        <Map/>
+        <Lunar/>
         <Loading/>
         <Graph/>
         <Gl/>
@@ -31,7 +36,6 @@ class App extends Component {
         {/* <Calendar/> */}
         <Api/>
         <Airport/>
-        <Simple/>
       </div>
     );
   }

@@ -251,7 +251,7 @@ var series = [];
     });
 });
 
-option = {
+const option = {
     backgroundColor: '#404a59',
     title : {
         text: '模拟迁徙',
@@ -294,3 +294,4 @@ option = {
     },
     series: series
 };
+export default option

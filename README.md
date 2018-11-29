@@ -3,7 +3,7 @@
 - branch b0 https://git.hust.cc/echarts-for-react/#/?_k=m5gz6d copiados de   https://github.com/hustcc/echarts-for-react/tree/master/demo/src/charts
 - branch b1  https://ecomfe.github.io/echarts-examples/public/index.html copiados de  https://github.com/ecomfe/echarts-examples/tree/gh-pages/public/data
 
--
+- branch b3  https://jackshawn.github.io/pics-by-echarts/ copiados de https://github.com/jackshawn/pics-by-echarts
 
 instalar
 

@@ -1,26 +1,5 @@
 
-var getGround = function (a, b) {
-    var arr = []
-    var offset = Math.random() * 30
-    for (var i = 0; i < 60; i++) {
-      arr.push(Math.sin(i / 2 + offset) / a + b)
-    }
-    return arr;
-  }
-  
-  var getMountainBottom = function (h, a) {
-    var arr = []
-    for (var i = 0; i < 60; i++) {
-      arr.push([
-        i / (a || 1),
-        Math.random() * 2 + h
-      ])
-    }
-    return arr;
-  }
-  
-  var r = 20
-  var r1 = 20
+
 
 const option = {
     // -------------------------------------

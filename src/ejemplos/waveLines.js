@@ -10,6 +10,11 @@ for (var i = 0; i < 100; i++) {
 	data2.push((Math.cos(i/4)*.5)+3.5);
 	data3.push((Math.sin(i/5)*.8)+3);
 }
+
+
+
+
+
 var option = {
 	grid: {
 		top: '0',
@@ -80,4 +85,4 @@ var option = {
 	],
 	animationDuration: 2000
 };
-myChart.setOption(option);
+export default option

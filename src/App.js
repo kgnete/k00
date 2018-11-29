@@ -7,6 +7,8 @@ import ReactEcharts from "echarts-for-react";
 
 
 
+
+import mapchina from './ejemplos/map-china.js'
 import areabasic from './ejemplos/area-basic.js'
 import arearainfall from './ejemplos/area-rainfall.js'
 // import areasimple from './ejemplos/area-simple.js'
@@ -24,6 +26,7 @@ class App extends Component {
       <div className="App">
         <h1>ejemplos de https://github.com/ecomfe/echarts-examples/tree/gh-pages/public/data</h1>
         
+        <ReactEcharts option={mapchina}/>
         <ReactEcharts option={geolines}/>
         <ReactEcharts option={mapworlddataRange}/>
         {/* <ReactEcharts option={mappolygon}/> */}

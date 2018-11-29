@@ -1,4 +1,5 @@
-option = {
+import echarts from 'echarts'
+const option = {
     tooltip: {
         trigger: 'item',
         formatter: '{b}'
@@ -23,3 +24,4 @@ option = {
         }
     ]
 };
+export default option

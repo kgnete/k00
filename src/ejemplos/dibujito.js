@@ -1,13 +1,15 @@
-
-
-
 const option = {
-    // -------------------------------------
+  // ------------------------------------- esto es para que no salgan los ejes
+  grid: {
+    left: '0',
+    right: '0',
+    bottom: '0'
+  },
 
   xAxis: [
     {
       boundaryGap: false,
-      data: new Array(60),
+      data: new Array(30),
       splitLine: {
         show: false
       }
@@ -33,10 +35,10 @@ const option = {
     colorStops: [
       {
         offset: 0,
-        color: '#d2e6f4' // 0% 处的颜色
+        color: '#d2e6f4' // 
       }, {
         offset: 1,
-        color: '#a5d9ee' // 100% 处的颜色
+        color: '#a5d9ee' //
       }
     ]
   },
@@ -49,56 +51,26 @@ const option = {
           opacity: 1
         }
       },
-      data: (function () {
-        var arr = new Array(20)
-          .fill(0)
-          .concat([
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            11,
-            13,
-            12,
-            11,
-            12,
-            11,
-            13,
-            11,
-            12,
-            11,
-            10.5,
-            12,
-            13,
-            11,
-            12,
-            10.5,
-            10,
-            9,
-            11,
-            10,
-            9,
-            8,
-            17
-          ])
+      data: Array(10)
+        .fill(0)
+        .concat([
+          6,
+          7,
+          17
+        ])
+        .concat([2, 4]),
 
-        return arr
-      })(),
-
+        // para que no se vea el controno
       symbolSize: 0,
       lineStyle: {
         normal: {
           width: 0
         }
-      },
+      }
     }
   ]
 };
 
 // ------------------------------------
-
 
 export default option

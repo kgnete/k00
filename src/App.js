@@ -3,8 +3,8 @@ import './App.css';
 import ReactEcharts from "echarts-for-react";
 
 
+import dibujito from './ejemplos/dibujito.js'
 import dibujo from './ejemplos/dibujo.js'
-
 import geo from './ejemplos/geo.js'
 import foto from './ejemplos/topo.js'
 
@@ -16,6 +16,7 @@ class App extends Component {
         <h1>
           ejemplos de echarts gallery
         </h1>
+        <ReactEcharts option={dibujito}/>
         <ReactEcharts option={dibujo}/>
         <ReactEcharts option={geo}/>
         <ReactEcharts option={foto}/>

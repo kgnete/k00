@@ -6,6 +6,7 @@ import './App.css';
 import Mountain from './ejemplos/mountain.js'
 import River from './ejemplos/river.js'
 // import Rocket from './ejemplos/rocket.js'
+// import WaveLines from './ejemplos/waveLines.js'
 
 
 
@@ -17,6 +18,7 @@ class App extends Component {
         
         
         {/* < Rocket /> */}
+        {/* < WaveLines /> */}
         < River />
         < Mountain />
 

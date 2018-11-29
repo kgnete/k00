@@ -491,6 +491,8 @@ export default class Mountain extends Component {
         }
       ]
     };
+
+    // ------------------------------------
   };
 
   render() {

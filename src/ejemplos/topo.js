@@ -1,4 +1,4 @@
-import bgImg from './topoimg.js'
+import bgImg from './img-casa.js'
 var lines = [
     {
         coords: [

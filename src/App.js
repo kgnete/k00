@@ -4,7 +4,8 @@ import ReactEcharts from "echarts-for-react";
 
 
 
-import pp from './ejemplos/topo.js'
+import geo from './ejemplos/geo.js'
+import foto from './ejemplos/topo.js'
 
 
 class App extends Component {
@@ -14,7 +15,9 @@ class App extends Component {
         <h1>
           ejemplos de echarts gallery
         </h1>
-        <ReactEcharts option={pp}/>
+        <ReactEcharts option={geo}/>
+
+        <ReactEcharts option={foto}/>
       </div>
     );
   }

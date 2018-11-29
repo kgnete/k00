@@ -45,62 +45,59 @@ const option = {
     ]
   },
   series: [
-
-
-
-    // cloud
     {
-      type: 'graph',
-      data: (function () {
-        var arr = [
-          {
-            symbolSize: 0,
-            x: 0,
-            y: 0
-          }, {
-            symbolSize: 0,
-            x: 200,
-            y: 100
-          }
-        ]
-        for (var i = 0; i < 5; i++) {
-          var size = [
-            Math.random() * 60 + 60,
-            60
-          ];
-          var x = Math.random() * 40 + 40 * i;
-          var y = Math.random() * 5 + 5;
-          arr.push({
-            symbolSize: size,
-            x: x,
-            y: y,
-            symbolOffset: [0, -30]
-          })
-          arr.push({
-            symbolSize: size,
-            x: x,
-            y: y,
-            symbolOffset: [-30, 0]
-          })
-          arr.push({
-            symbolSize: size,
-            x: x,
-            y: y,
-            symbolOffset: [30, 0]
-          })
-        }
-        return arr
-      })(),
-      itemStyle: {
+      type: 'line',
+      areaStyle: {
         normal: {
-          color: '#fff'
+          color: '#354967',
+          opacity: 1
         }
       },
-      symbolSize: [
-        80, 20
-      ],
-      z: -1,
-      animationDelay: 1800
+      data: (function () {
+        var arr = new Array(20)
+          .fill(0)
+          .concat([
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            11,
+            13,
+            12,
+            11,
+            12,
+            11,
+            13,
+            11,
+            12,
+            11,
+            10.5,
+            12,
+            13,
+            11,
+            12,
+            10.5,
+            10,
+            9,
+            11,
+            10,
+            9,
+            8,
+            17
+          ])
+
+        return arr
+      })(),
+
+      symbolSize: 0,
+      lineStyle: {
+        normal: {
+          width: 0
+        }
+      },
     }
   ]
 };

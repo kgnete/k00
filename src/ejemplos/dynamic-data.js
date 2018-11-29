@@ -1,4 +1,4 @@
-option = {
+const option = {
     title: {
         text: '动态数据',
         subtext: '纯属虚构'
@@ -123,3 +123,6 @@ setInterval(function (){
 
     myChart.setOption(option);
 }, 2100);
+
+
+export default option

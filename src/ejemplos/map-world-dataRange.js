@@ -1,4 +1,4 @@
-option = {
+const option = {
     title: {
         text: 'World Population (2010)',
         subtext: 'from United Nations, Total population, both sexes combined, as of 1 July (thousands)',
@@ -227,3 +227,6 @@ option = {
         }
     ]
 };
+
+
+export default option

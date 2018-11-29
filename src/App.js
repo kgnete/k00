@@ -13,7 +13,8 @@ import arearainfall from './ejemplos/area-rainfall.js'
 import areastack from './ejemplos/area-stack.js'
 import multipleyaxis from './ejemplos/multiple-y-axis.js'
 // import dynamicdata from './ejemplos/dynamic-data.js'
-import mappolygon from './ejemplos/map-polygon.js'
+// import mappolygon from './ejemplos/map-polygon.js'
+import mapworlddataRange from './ejemplos/map-world-dataRange.js'
 
 
 class App extends Component {
@@ -22,7 +23,8 @@ class App extends Component {
       <div className="App">
         <h1>ejemplos de https://github.com/ecomfe/echarts-examples/tree/gh-pages/public/data</h1>
         
-        <ReactEcharts option={mappolygon}/>
+        <ReactEcharts option={mapworlddataRange}/>
+        {/* <ReactEcharts option={mappolygon}/> */}
         {/* <ReactEcharts option={dynamicdata}/> */}
         <ReactEcharts option={multipleyaxis}/>
         <ReactEcharts option={areastack}/>

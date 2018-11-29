@@ -24,6 +24,10 @@ var getMountainBottom = function (h, a) {
 
 var r = 20
 var r1 = 20
+
+
+// ------------------------------------------
+
 export default class Mountain extends Component {
   constructor(props) {
     super(props);
@@ -35,6 +39,7 @@ export default class Mountain extends Component {
 
   getOption = () => {
     return {
+        // -------------------------------------
       grid: {
         left: '0',
         right: '0',

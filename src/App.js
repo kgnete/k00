@@ -3,8 +3,7 @@ import React, {Component} from 'react';
 import './App.css';
 import ReactEcharts from "echarts-for-react";
 
-// import dynamicdata2 from './ejemplos/dynamic-data2.jsx'
-import cityNight from './ejemplos/cityNight.js'
+import Mountain from './ejemplos/mountain.js'
 
 
 
@@ -15,7 +14,7 @@ class App extends Component {
         <h1>ejemplos de https://ecomfe.github.io/echarts-examples/public/index.html</h1>
         
         
-        <cityNight/>
+        < Mountain />
 
 
       </div>

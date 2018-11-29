@@ -2,7 +2,7 @@ require('./style.css')
 var echarts = require('echarts')
 var myChart = echarts.init(document.getElementById('main'));
 
-option = {
+const option = {
 	title: {
 		text: '孤帆远影碧空尽,唯见长江天际流',
 		textStyle: {
@@ -426,4 +426,3 @@ option = {
 		z: 4
 	}]
 };
-myChart.setOption(option);

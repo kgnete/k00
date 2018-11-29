@@ -189,3 +189,4 @@ setInterval(function () {
 	});
 	myChart.setOption(option);
 },10000)
+export default option

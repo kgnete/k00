@@ -1,7 +1,5 @@
-import React, {  Component} from 'react';
+import React, {Component} from 'react';
 import ReactEcharts from "echarts-for-react";
-
-
 
 var myChart = require('./common')
 var rocket = 'path://M-244.396,44.399c0,0,0.47-2.931-2.427-6.512c2.819-8.221,3.21-15.709,3.21-' +
@@ -16,7 +14,7 @@ var rocket = 'path://M-244.396,44.399c0,0,0.47-2.931-2.427-6.512c2.819-8.221,3.2
     '65.07,44.399z M-252.36,45.15l-1.176-1.22L-254.789,48l-1.487-4.069l-1.019,2.116l-' +
     '1.488-3.826h8.067L-252.36,45.15z';
 
-export default class Mountain extends Component {
+export default class Rocket extends Component {
   constructor(props) {
     super(props);
     this.state = this.getInitialState();

@@ -5,6 +5,7 @@ import './App.css';
 
 import Mountain from './ejemplos/mountain.js'
 import River from './ejemplos/river.js'
+// import Rocket from './ejemplos/rocket.js'
 
 
 
@@ -15,6 +16,7 @@ class App extends Component {
         <h1>ejemplos de https://github.com/jackshawn/pics-by-echarts</h1>
         
         
+        {/* < Rocket /> */}
         < River />
         < Mountain />
 

@@ -1,4 +1,4 @@
-import bgImg from 'topoimg.js'
+import bgImg from './topoimg.js'
 var lines = [
     {
         coords: [
@@ -69,7 +69,7 @@ var lines = [
 ]
 
 
-option = {
+const option = {
     backgroundColor: '#074883',
     grid:{
         top: 10,
@@ -135,3 +135,4 @@ option = {
         },
     ]
 };
+export default option

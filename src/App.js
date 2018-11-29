@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ReactEcharts from "echarts-for-react";
+// import ReactEcharts from "echarts-for-react";
 
 import Mountain from './ejemplos/mountain.js'
 

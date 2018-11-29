@@ -6,6 +6,8 @@ import ReactEcharts from "echarts-for-react";
 import areabasic from './ejemplos/area-basic.js'
 import arearainfall from './ejemplos/area-rainfall.js'
 // import areasimple from './ejemplos/area-simple.js'
+import areastack from './ejemplos/area-stack.js'
+import multipleyaxis from './ejemplos/multiple-y-axis.js'
 
 
 class App extends Component {
@@ -14,7 +16,8 @@ class App extends Component {
       <div className="App">
         <h1>ejemplos de https://github.com/ecomfe/echarts-examples/tree/gh-pages/public/data</h1>
         
-        
+        <ReactEcharts option={multipleyaxis}/>
+        <ReactEcharts option={areastack}/>
         {/* <ReactEcharts option={areasimple}/> */}
         <ReactEcharts option={arearainfall}/>
         <ReactEcharts option={areabasic}/>

@@ -1,4 +1,6 @@
 
+import echarts from 'echarts'
+
 var data = [
     {name: '海门', value: 9},
     {name: '鄂尔多斯', value: 12},
@@ -430,7 +432,7 @@ function renderItem(params, api) {
     };
 }
 
-option = {
+var option = {
     // backgroundColor: '#404a59',
     title: {
         text: '全国主要城市空气质量',
@@ -653,3 +655,5 @@ option = {
         }
     ]
 };
+
+export default option

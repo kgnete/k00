@@ -40,8 +40,8 @@ export default class Map extends Component {
   getOption = () => {
     return {
       title: {
-        text: 'probando json',
-        subtext: '纯属虚构',
+        text: 'Paneles solares',
+        subtext: 'ubucacion',
         left: 'center'
       },
       tooltip: {

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import ReactEcharts from 'echarts-for-react';
-
-require('echarts/map/js/world.js');
-// require('echarts/map/json/world.json');
+require('./paneles-solares.js');
+// require('echarts/map/js/00.js');
+// require('echarts/map/json/pk.json');
 
 export default class Map extends Component {
   constructor(props) {
@@ -50,7 +50,7 @@ export default class Map extends Component {
       legend: {
         orient: 'vertical',
         left: 'left',
-        data: ['iphone3', 'iphone4', 'iphone5']
+        data: ['qq', 'aa', 'zz']
       },
       visualMap: {
         min: 0,
@@ -77,9 +77,9 @@ export default class Map extends Component {
       },
       series: [
         {
-          name: 'iphone3',
+          name: 'qq',
           type: 'map',
-          mapType: 'world',
+          mapType: 'pk',
           roam: false,
           label: {
             normal: {
@@ -91,23 +91,23 @@ export default class Map extends Component {
           },
           data: [
             {
-              name: 'Russia',
+              name: 'NO11',
               value: this.randomData()
             }, {
-              name: 'Portugal',
+              name: 'NO12',
               value: this.randomData()
             }, {
-              name: 'Spain',
+              name: 'NO13',
               value: this.randomData()
             }, {
-              name: 'Canada',
+              name: 'NO14',
               value: this.randomData()
             },
           ]
         }, {
-          name: 'conectado',
+          name: 'aa',
           type: 'map',
-          mapType: 'world',
+          mapType: 'pk',
           label: {
             normal: {
               show: true
@@ -118,23 +118,23 @@ export default class Map extends Component {
           },
           data: [
             {
-              name: 'Spain',
+              name: 'NO11',
               value: this.randomData()
             }, {
-              name: 'Canada',
+              name: 'NO12',
               value: this.randomData()
             }, {
-              name: 'Norway',
+              name: 'NO13',
               value: this.randomData()
             }, {
-              name: '澳门',
+              name: 'NO14',
               value: this.randomData()
-            }
+            },
           ]
         }, {
-          name: 'iphone5',
+          name: 'zz',
           type: 'map',
-          mapType: 'world',
+          mapType: 'pk',
           label: {
             normal: {
               show: true
@@ -145,16 +145,18 @@ export default class Map extends Component {
           },
           data: [
             {
-              name: 'Canada',
-              value: this.randomData()
-            },
-            {
-              name: 'Nigeria',
+              name: 'NO11',
               value: this.randomData()
             }, {
-              name: 'Morocco',
+              name: 'NO12',
               value: this.randomData()
-            }
+            }, {
+              name: 'NO13',
+              value: this.randomData()
+            }, {
+              name: 'NO14',
+              value: this.randomData()
+            },
           ]
         }
       ]
@@ -178,3 +180,4 @@ export default class Map extends Component {
     );
   };
 }
+

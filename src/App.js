@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ReactEcharts from 'echarts-for-react';
+
 require('./paneles-solares.js');
 // require('echarts/map/js/00.js');
 // require('echarts/map/json/pk.json');
@@ -33,6 +34,9 @@ export default class Map extends Component {
     }
   };
 
+
+
+  
   randomData() {
     return Math.round(Math.random() * 1000);
   };
@@ -164,6 +168,9 @@ export default class Map extends Component {
   };
 
   render() {
+
+
+    
     return (
       <div className='examples'>
         <div className='parent'>

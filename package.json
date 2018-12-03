@@ -4,13 +4,16 @@
   "private": true,
   "dependencies": {
     "76": "0.0.4",
+    "@turf/buffer": "^5.1.5",
+    "@turf/collect": "^6.0.1",
     "echarts": "^4.2.0-rc.2",
     "echarts-for-react": "^2.0.15-beta.0",
     "echarts-gl": "^1.1.1",
     "lodash.clonedeep": "^4.5.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "turf": "^3.0.14"
   },
   "scripts": {
     "start": "react-scripts start",

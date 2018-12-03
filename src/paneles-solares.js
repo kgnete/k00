@@ -21,6 +21,8 @@
 * under the License.
 */
 
+
+
 (function (root, factory) {
 
   if (typeof exports === 'object' && typeof exports.nodeName !== 'string') {
@@ -53,35 +55,14 @@
   {
     "type": "FeatureCollection",
     "features": [
-        {
-            "type": "Feature",
-            "geometry": {
-              "type": "LineString",
-              "coordinates": [
-                [
-                  -4.12811279296875,
-                  0.5273363048115169
-                ],
-                [
-                  1.14532470703125,
-                  0.703107352436491
-                ],
-                [
-                  1.14532470703125,
-                  3.6888551431470478
-                ],
-                [
-                  -4.47967529296875,
-                  3.8642546157214084
-                ],
-                [
-                  -4.12811279296875,
-                  0.5273363048115169
-                ]
-              ]
-            },
-            "properties": {}
-          },
+      { "type": "Point",
+  "coordinates": [100.0, 0.0],
+  "crs": {
+    "type": "link",
+    "properties": {
+      "href": "http://example.com/crs/42",
+      "type": "proj4"
+    } } },
       //  panel
       {
         "type": "Feature",
@@ -167,6 +148,7 @@
           ]
         }
       }
+      
     ]
   }
 

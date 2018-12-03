@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import ReactEcharts from 'echarts-for-react';
+import { greatCircle, point } from '@turf/turf';
+import tturf from './tturf'
+
+
+
 require('./paneles-solares.js');
 // require('echarts/map/js/00.js');
 // require('echarts/map/json/pk.json');
@@ -164,6 +169,8 @@ export default class Map extends Component {
   };
 
   render() {
+
+
     return (
       <div className='examples'>
         <div className='parent'>

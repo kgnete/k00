@@ -1,3 +1,5 @@
+
+import echarts from 'echarts'
 /*
 
 !!!!!!   poner este fichero en el node-module  de echarts  !!!!
@@ -22,13 +24,14 @@
 */
 
 
+
+
+
+
   echarts.registerMap('pk',
 
   // =====================================
 
-
-
-  
   {
     "type": "FeatureCollection",
     "features": [

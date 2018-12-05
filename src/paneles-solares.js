@@ -55,14 +55,7 @@
   {
     "type": "FeatureCollection",
     "features": [
-      { "type": "Point",
-  "coordinates": [100.0, 0.0],
-  "crs": {
-    "type": "link",
-    "properties": {
-      "href": "http://example.com/crs/42",
-      "type": "proj4"
-    } } },
+      
       //  panel
       {
         "type": "Feature",

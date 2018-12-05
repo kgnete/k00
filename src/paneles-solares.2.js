@@ -22,20 +22,6 @@
 */
 
 
-
-(function (root, factory) {
-
-  if (typeof exports === 'object' && typeof exports.nodeName !== 'string') {
-    // CommonJS
-    factory(exports, require('echarts'));
-  } else {
-    // Browser globals
-    factory({}, root.echarts);
-  }
-}(this, function (exports, echarts) {
-  const c = 1
-  const f = 1
-
   echarts.registerMap('pk',
 
   // =====================================
@@ -118,4 +104,4 @@
 
   // =======================================
   );
-}));
+

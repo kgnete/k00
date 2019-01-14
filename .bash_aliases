@@ -433,8 +433,7 @@ EEOOFF
 
 if [ $# -eq 0 ];  then    echo " que repositorio? ";  echo k01 k02 k03 ... k20;  read;fi
 
-git init
-echo -e "\033[0;32m add .  ;  commit ; kgnete/ultimo   \033[0m"
+echo -e "\033[0;32m ++++++++++++++++++++++++++++++++   \033[0m"
 # Add changes to git.
 # cd .
 git add .
@@ -448,7 +447,7 @@ git commit -m "$msg"
 git remote remove origin
 # git remote add origin https://github.com/kgnete/"$1"
 git remote add origin git@github.com:kgnete/"$1".git
-git remote add origin git@github.com:kgnete/k11.git
+# git remote add origin git@github.com:kgnete/k11.git
 git remote -v
 # read
 # Push source and build repos.
@@ -464,15 +463,7 @@ chromium https://github.com/kgnete/"$1"
 
 
 
-
-
-
-
-
-
-
-function .git.push.kgnete.home(){
-cd 
+function .git.push.kgnete.home.init(){
 rm -rf .git
 git init
 # clone solo del .bash_aliases
@@ -483,6 +474,16 @@ cat << EEOOFF > .gitignore
 !bookmarks*
 !makefile
 EEOOFF
+
+}
+
+
+
+
+
+
+function .git.push.kgnete.home(){
+cd 
 .git.push.kgnete. k01
 }
 
